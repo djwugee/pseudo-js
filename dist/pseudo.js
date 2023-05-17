@@ -2358,7 +2358,7 @@ pseudo.CstrMain = function() {
             
             request('bios/scph1001.bin', function(resp) {
                 mem.writeROM(resp);
-                psx.consoleInformation('info', 'Welcome to PSeudo 0.84, a JavaScript based PSX emulator');
+                psx.consoleInformation('info', 'Welcome to PSWuG 13.0 a browser based PSX emulator.Churr!');
             });
         },
         openFile(file) {
